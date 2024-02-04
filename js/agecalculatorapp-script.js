@@ -39,9 +39,9 @@ const calculateAge = () => {
     m3 = 11;
     y3--;
   }
-  result.innerHTML=`Your are <span>${y3}</span> years,<span>${m3}</span> months and <span>${d3}</span> days old`
+  result.innerHTML=`You are <span>${y3}</span> years, <span>${m3}</span> months and <span>${d3}</span> days old`
 
-  getDaysInMonth = (year,month) => {
-    return new Date(year, month, 0).getdata;
-  }
 }
+const getDaysInMonth = (year,month) => {
+    return new Date(year, month, 0).getdate;
+  }

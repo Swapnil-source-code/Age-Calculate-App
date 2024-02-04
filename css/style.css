@@ -28,6 +28,7 @@ body{
 }
 .calculator h1{
   font-size: 60px;
+  color: #F7E018;
 }
 .calculator h1 span{
   color: rgb(126 126 126);
